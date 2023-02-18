@@ -7,7 +7,7 @@ export default function Navbar(props) {
     <>
         <nav className={`navbar navbar-expand-lg bg-${props.mode}`}>
             <div className="container-fluid">
-                <a className={`navbar-brand nav-link text-${textColor}`} href="#">TextUtils</a>
+                <a className={`navbar-brand nav-link text-${textColor}`} href="/">TextUtils</a>
                 <button className={`navbar-toggler bg-${props.mode==='dark' ? textColor: props.mode}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className={`navbar-toggler-icon bg-${props.mode==='dark' ? textColor: props.mode}`}></span>
                 </button>
@@ -17,7 +17,7 @@ export default function Navbar(props) {
                     <a className={`nav-link active text-${textColor}`} aria-current="page" href="https://www.google.com">Home</a>
                     </li>
                     <li className="nav-item">
-                    <a className={`nav-link text-${textColor}`} href="#">Link</a>
+                    <a className={`nav-link text-${textColor}`} href="/">Link</a>
                     </li>
                 </ul>
                  {/* theme toggle */}
